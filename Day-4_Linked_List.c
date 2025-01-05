@@ -19,30 +19,19 @@ void printList(struct Node *node)
 
 int main()
 {
-    struct Node *head;
-    struct Node *second;
-    struct Node *third;
-    struct Node *fourth;
-    struct Node *fifth;
-    struct Node *sixth;
-    struct Node *seventh;
-    struct Node *eighth;
-    struct Node *ninth;
-    struct Node *tenth;
+     // Allocate memory for nodes in the liked list in Heap
 
-    // Allocate memory for nodes in the liked list in Heap
-
-    head = (struct Node *)malloc(sizeof(struct Node));
-    second = (struct Node *)malloc(sizeof(struct Node));
-    third = (struct Node *)malloc(sizeof(struct Node));
-    fourth = (struct Node *)malloc(sizeof(struct Node));
-    fifth = (struct Node *)malloc(sizeof(struct Node));
-    sixth = (struct Node *)malloc(sizeof(struct Node));
-    seventh = (struct Node *)malloc(sizeof(struct Node));
-    eighth = (struct Node *)malloc(sizeof(struct Node));
-    ninth = (struct Node *)malloc(sizeof(struct Node));
-    tenth = (struct Node *)malloc(sizeof(struct Node));
-
+    struct Node *head = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *second = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *third = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *fourth = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *fifth = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *sixth = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *seventh = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *eighth = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *ninth = (struct Node *)malloc(sizeof(struct Node));
+    struct Node *tenth = (struct Node *)malloc(sizeof(struct Node));
+    
     // Link first node to second
     head->data = 1;
     head->next = second;
