@@ -1,4 +1,4 @@
-// Implementing parenthesis in stacks
+// Implementing infix and postfix in stacks
 
 #include <stdio.h>
 #include <stdlib.h>
