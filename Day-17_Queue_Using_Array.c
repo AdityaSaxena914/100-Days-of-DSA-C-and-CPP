@@ -38,7 +38,7 @@ int dequeue(struct Queue *q)
 {
     if (isEmpty(q))
     {
-        return -1;
+        return q->front = q->rear = -1;
     }
     int value = q->arr[q->front];
     q->front++;
