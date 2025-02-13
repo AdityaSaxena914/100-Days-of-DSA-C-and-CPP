@@ -1,4 +1,4 @@
-// Implementing Qucik sort using array
+// Implementing Merge sort using array
 #include <stdio.h>
 void Display(int arr[], int n)
 {
