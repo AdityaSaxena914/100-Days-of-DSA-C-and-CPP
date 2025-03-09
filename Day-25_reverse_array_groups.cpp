@@ -1,3 +1,6 @@
+// Problem Statement:
+// Given an array of size N, reverse every subarray of size K. If the remaining elements are fewer than K, reverse them as well.
+
 #include <iostream>
 using namespace std;
 
