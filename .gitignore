@@ -1,0 +1,21 @@
+# Ignore compiled binary files
+*.exe
+*.out
+*.o
+
+# Ignore editor and IDE settings
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore Python cache (if used for scripts)
+__pycache__/
