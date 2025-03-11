@@ -2,7 +2,7 @@
 *.exe
 *.out
 *.o
-
+*
 # Ignore temporary files
 *.log
 *.tmp
