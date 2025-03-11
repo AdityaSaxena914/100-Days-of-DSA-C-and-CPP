@@ -2,7 +2,7 @@
 *.exe
 *.out
 *.o
-
+a.out
 # Ignore temporary files
 *.log
 *.tmp
@@ -13,3 +13,8 @@
 # Ignore build directories
 build/
 bin/
+
+# Ignore all executables (no extensions)
+*
+!*.*
+!.gitignore
