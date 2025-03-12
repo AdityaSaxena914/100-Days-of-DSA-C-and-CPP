@@ -1,6 +1,7 @@
 // 📌 Problem: Move Target to End (Advanced Version of Leetcode #283)
 // 🔹 Problem Statement:
-// You are given an array nums[] of integers and a target value target. Write a function to move all occurrences of the target value to the end of the array while maintaining the relative order of the non-target elements.
+// You are given an array nums[] of integers and a target value target. 
+// Write a function to move all occurrences of the target value to the end of the array while maintaining the relative order of the non-target elements.
 
 // Constraints:
 
