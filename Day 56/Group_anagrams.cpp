@@ -23,14 +23,16 @@ vector<vector<string>> groupAnagrams(vector<string> &strs)
 }
 int main()
 {
-    vector<string> strs = {"eat","tea","tan","ate","nat","bat"};
+    vector<string> strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
 
     vector<vector<string>> ans = groupAnagrams(strs);
-    for(const auto& i : ans){
-        for(const auto& j : i){
-            cout<< j << " ";
+    for (const auto &i : ans)
+    {
+        for (const auto &j : i)
+        {
+            cout << j << " ";
         }
     }
-    cout<<endl;
+    cout << endl;
     return 0;
 }
